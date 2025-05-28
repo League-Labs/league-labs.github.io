@@ -13,7 +13,6 @@ by Timothy C. Urdan. The book is also
 or for free at the [Internet Archive](https://scispace.com/pdf/statistics-in-plain-english-33wu7x4b93.pdf)
 
 
-
 ## Lesson Ideas
 
 ### Using Tools
@@ -21,3 +20,16 @@ or for free at the [Internet Archive](https://scispace.com/pdf/statistics-in-pla
 * Getting started with Jupyter Notebooks in VS Code
 * Getting started with Colab
 * Getting started with Github Codespaces
+
+### Software Tools
+
+* Introduction to Pandas
+* Introduction to Numpy
+* Introduction to Matplotlib
+
+### Data Analysis Techniques
+
+* Mean, median and Mode
+* What is a Standard Deviation?
+* Introduction to linear regression
+

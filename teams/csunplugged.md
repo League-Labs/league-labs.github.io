@@ -17,3 +17,13 @@ For each of the modules, students will learn the algorithms using physical
 cards, web animations, and then implement them in Python.
 
 
+Here are some examples of teaching sorting algorithms with cards:
+
+Basic Tim sort:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pY_HMiBoDZs?si=ENbOx_1sNqZDpMnn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Insertion sort:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eXUl4V8UpxE?si=PmQ6ea3rnGYjz0Rf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
