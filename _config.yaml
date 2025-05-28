@@ -7,6 +7,8 @@ remote_theme: "jekyll/minima@2.5-stable"
 # https://github.com/jekyll/minima/blob/2.5-stable/README.md
 
 title: League Labs
+url: "https://labs.jointheleague.org"
+baseurl: ""
 
 description: >
   LEAGUE Labs is our unpaid internship program for High School students to
