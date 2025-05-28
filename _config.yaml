@@ -1,34 +1,28 @@
 #theme: jekyll-theme-minimal
 remote_theme: "jekyll/minima@2.5-stable"
 
-# Note, we are using version 2.5, so you shoudl 
+# Note, we are using version 2.5, so you should 
 # read these instuctions, not the ones at the HEAD of the
 # master branch
 # https://github.com/jekyll/minima/blob/2.5-stable/README.md
 
-title: League Student Portfolio
+title: League Labs
 
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-
-author:
-  name: Andy M. Azing
-  email: "student@jointheleague.org"
+  LEAGUE Labs is our unpaid internship program for High School students to
+  develop new LEAGUE classes. LEAGUE Labs Interns will create 90 minute classes,
+  on a subject of their choice, and teach that class to other students in our
+  Tech Club or Code Clinic programs.
 
 plugins:
   - jekyll-remote-theme
 
+# If you don't define the nav pages here, the
+# default is to use  all of the pages.
+header_pages:
+- teams/index.md
+
 minima:
-
-  # If you don't define the nav pages here, the
-  # default is to use  all of the pages.
-
-  header_pages:
-  - about.md
-  - howto.md
 
   social_links:
     - title: X
