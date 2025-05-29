@@ -33,3 +33,9 @@ or for free at the [Internet Archive](https://scispace.com/pdf/statistics-in-pla
 * What is a Standard Deviation?
 * Introduction to linear regression
 
+## Books, Classes and Tutorials
+
+* [Pandas in 30 Days](https://courses.dataschool.io/pandas-in-30-days)
+* [Statistics in Plain English](https://a.co/d/9vLbOJf) 
+
+  
