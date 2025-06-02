@@ -23,6 +23,7 @@ plugins:
 # default is to use  all of the pages.
 header_pages:
 - teams/index.md
+- calendar.md
 
 minima:
 
