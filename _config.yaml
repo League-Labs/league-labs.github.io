@@ -7,17 +7,26 @@ remote_theme: "jekyll/minima@2.5-stable"
 # https://github.com/jekyll/minima/blob/2.5-stable/README.md
 
 title: League Labs
-url: "https://labs.jointheleague.org"
-baseurl: ""
-
 description: >
   LEAGUE Labs is our unpaid internship program for High School students to
   develop new LEAGUE classes. LEAGUE Labs Interns will create 90 minute classes,
   on a subject of their choice, and teach that class to other students in our
   Tech Club or Code Clinic programs.
+author: The LEAGUE
+url: "https://labs.jointheleague.org"
+baseurl: ""
+repository:  https://github.com/League-Labs/league-labs.github.io
+
+permalink: pretty
+
+
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap
 
 # If you don't define the nav pages here, the
 # default is to use  all of the pages.
