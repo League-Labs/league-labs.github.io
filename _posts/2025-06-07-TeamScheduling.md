@@ -4,8 +4,9 @@ title: "New Team Scheduling System - Select Your Available Times"
 categories: news
 ---
 
-We've launched a new scheduling system to help coordinate team meetings, This
-will make it much easier for teams to find meeting times that work for everyone.
+We’ve had a really hard time finding meetings that everyone can attend, so
+launched a new scheduling system to help coordinate team meetings, This will
+make it much easier for teams to find meeting times that work for everyone.
 
 ## How to Use the Scheduling System
 
@@ -17,6 +18,9 @@ You'll find "Calendar Poll" links in several places:
 
 Click on your team's scheduling link to indicate when you're available for team
 meetings.
+
+‼️ Go enter your times ASAP so I can schedule meetings ‼️
+
 
 ##  Scheduling Links
 
