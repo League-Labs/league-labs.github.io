@@ -27,3 +27,9 @@ web requests to APIs, such as OpenAI's GPT-3 or other AI services. This can
 include building chatbots, text generation tools, or other applications that
 leverage AI capabilities. For these tasks we will use Github's new Models API,
 which allows us to use AI models without needing to run them locally.
+
+
+## Ideas for Projects
+
+* [Create an AI Chatbot](https://realpython.com/how-to-make-a-discord-bot-python/)
+
