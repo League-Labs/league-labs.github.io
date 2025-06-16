@@ -9,7 +9,6 @@ Use these links indicate the times when you can meet, so we can schedule team me
 
 - [AI and Neural Nets](https://schedule.jtlapp.net/ai-nnfs/)
 - [Python (+Machine Vision)](https://schedule.jtlapp.net/python/)
-- [CS & Unplugged](https://schedule.jtlapp.net/csunplugged/)
 - [Data, ML & Statistics](https://schedule.jtlapp.net/data-stats/)
 
 ## League Labs Calendar
