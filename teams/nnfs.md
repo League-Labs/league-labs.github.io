@@ -32,6 +32,8 @@ which allows us to use AI models without needing to run them locally.
 ## Ideas for Projects
 
 * [MNIST digits tutorial with numpy](https://numpy.org/numpy-tutorials/content/tutorial-deep-learning-on-mnist.html)
+* [Attention is all you Need](https://arxiv.org/pdf/1706.03762)
 * [Dive into Deep Learning](https://d2l.ai/index.html)
 * [Create an AI Chatbot](https://realpython.com/how-to-make-a-discord-bot-python/)
+  
 
