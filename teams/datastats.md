@@ -35,6 +35,7 @@ or for free at the [Internet Archive](https://scispace.com/pdf/statistics-in-pla
 
 ## Books, Classes and Tutorials
 
+* [Kaggle Pandas Tutorials](https://www.kaggle.com/learn/pandas)
 * [Pandas in 30 Days](https://courses.dataschool.io/pandas-in-30-days)
 * [Statistics in Plain English](https://a.co/d/9vLbOJf) 
 
