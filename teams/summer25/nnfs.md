@@ -36,4 +36,3 @@ which allows us to use AI models without needing to run them locally.
 * [Dive into Deep Learning](https://d2l.ai/index.html)
 * [Create an AI Chatbot](https://realpython.com/how-to-make-a-discord-bot-python/)
   
-
