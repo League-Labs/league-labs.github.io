@@ -1,0 +1,12 @@
+title: League Labs
+uid: b32049fd-07c2-410a-a0dd-1a8767f3b2d5
+type: course
+tier: 3
+grades: ["9", "10", "11", "12"]
+category: internship
+topics: ["programming", "robotics", "data-science", "machine-learning", "simulation"]
+prerequisites: ["Basic programming familiarity recommended"]
+lessons: 0
+estimated_weeks: 8
+repo_url: https://github.com/League-Labs/league-labs.github.io
+description: League Labs is the League of Amazing Programmers introductory internship program for high school students. Interns join project teams, study a programming or computer science topic, create practical artifacts or mini-lessons, and share their work with other students.

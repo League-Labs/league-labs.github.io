@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Get Started with AI Models Meetup"
+date: 2025-05-28
 categories: data-stats
 ---
 

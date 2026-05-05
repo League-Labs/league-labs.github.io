@@ -1,9 +1,10 @@
 ---
-layout: page
-title: Teams Summer 2025
+title: Summer 2025
+weight: 20
+cohort: 2025
 ---
 
-For Summer 2025, the Teams are: 
+For Summer 2025, the teams were:
 
 | Team Name (Web Page) | Discord Channel | Github Team | Calendar Poll |
 |-----------|-----------------|-------------|---------------|
@@ -11,3 +12,5 @@ For Summer 2025, the Teams are:
 | [Python (+ Machine Vision)](python) | [#python](https://discord.com/channels/1370858718069260399/1376691813196365964) | [Python](https://github.com/orgs/League-Labs/teams/python0625)|  |
 | [Data, ML & Statistics](datastats) | [#data-stats](https://discord.com/channels/1370858718069260399/1376691889159278662) |[Data Team](https://github.com/orgs/League-Labs/teams/data0625) |  |
 | [Robots](robots) | | |
+
+Use the links below for the archived team pages and resources from that cohort.

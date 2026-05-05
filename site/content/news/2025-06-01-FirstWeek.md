@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "First Week of League Labs"
-categories: news
+date: 2025-06-01
 ---
 
 The League Labs Summer has started! Here is what we will be doing the first week. 
@@ -19,9 +18,9 @@ will be communicating and sharing information. You should already have a link to
 the server in your email. If you don't, contact Eric Busboom.
 
 When you are on the Discord server, join the channel for your team, and introduce
-yourself. If you are not sure which channel is for your tem, team you are on, check the [Teams page](https://labs.jointheleague.org/teams/index.html) or ask Eric. 
+yourself. If you are not sure which channel is for your tem, team you are on, check the [Teams page](/teams/) or ask Eric.
 
-When you introduce yourself, mention what your are interested in working on. 
+When you introduce yourself, mention what your are interested in working on.
 
 ## 2. Join the Google Group
 
@@ -39,7 +38,7 @@ resources.
 
 ## 4. Visit the League Labs website 
 
-Visit the [League Labs website](https://labs.jointheleague.org/) and read the [Calendar Page](https://labs.jointheleague.org/calendar.html) to see the schedule for the first week team meetings. **You should plan on attending one of the meetings**  However, maybe you can't make one of the meeting, if so, get on Discord and communicate with your team to see if there is another time you can all meet. Let me know and I will move the meeting to a time that works for everyone.
+Visit the [League Labs website](/) and read the [Calendar Page](/calendar/) to see the schedule for the first week team meetings. **You should plan on attending one of the meetings** However, maybe you can't make one of the meeting, if so, get on Discord and communicate with your team to see if there is another time you can all meet. Let me know and I will move the meeting to a time that works for everyone.
 
 DM or email me if you have any questions are aren't getting mails, messages or acess. 
 

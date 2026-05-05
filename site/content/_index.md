@@ -1,5 +1,4 @@
 ---
-layout: home
 title: League Labs
 ---
 
@@ -16,14 +15,15 @@ Discord server and do not.
 
 ## Teams
 
-This season's teams are organized around a single larger Robotics project with three subteams:
+League Labs now organizes team pages by cohort:
 
-- [Vision](teams/vision)
-- [Robotics](teams/robotics)
-- [Simulation](teams/simulation)
+- [Summer 2026](teams/summer26/)
+- [Summer 2025](teams/summer25/)
 
 ### Past Projects
 
 - Summer 2025: [Teams archive](teams/summer25/)
 
-[Visit the Calendar](calendar.md) for team meetings and Code Clinics classes.
+The Summer 2026 cohort currently includes the [Robots](teams/summer26/robots/) and [Web Applications](teams/summer26/web-applications/) teams.
+
+[Visit the Calendar](/calendar/) for team meetings and Code Clinics classes.

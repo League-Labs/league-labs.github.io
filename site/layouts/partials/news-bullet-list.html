@@ -1,0 +1,9 @@
+<ul class="news-bullet-list">
+  {{ range . }}
+  <li>
+    {{ $yearClass := printf "year-%s" (.Date.Format "2006") }}
+    <span class="news-date-badge {{ $yearClass }}">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>

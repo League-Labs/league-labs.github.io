@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ if eq .RelPermalink "/teams/" }}
+<ul class="cohort-list">
+  {{ range .Sections.ByWeight }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ with .Params.cohort }}<span class="cohort-lozenge year-{{ . }}">{{ slicestr . 2 }}</span>{{ end }}
+    {{ if .Pages }}
+    <ul>
+      {{ range sort .Pages "Title" }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
+{{ end }}

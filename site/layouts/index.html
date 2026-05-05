@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>{{ .Site.Title }}</h1>
+{{ .Content }}
+{{ $news := where site.RegularPages "Section" "news" }}
+{{ if $news }}
+<h2><a href="/news/">News</a></h2>
+{{ partial "news-bullet-list.html" (first 5 (sort $news "Date" "desc")) }}
+{{ end }}
+{{ end }}

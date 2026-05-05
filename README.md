@@ -1,11 +1,19 @@
 # League Labs Website
 
-The Jekyll source for the League Labs website.
+The Hugo source for the League Labs website.
 
 Run
 
 ```bash
-jekyll serve --incremental 
+curik hugo build
 ``` 
 
-to start the Jekyll server, then open port 4000 to see the updating website. 
+to build the site.
+
+For direct Hugo development, run:
+
+```bash
+hugo server --source site
+```
+
+and open the local server URL that Hugo prints.
