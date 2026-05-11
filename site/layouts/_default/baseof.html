@@ -22,26 +22,8 @@
           <span class="sidebar-brand-text">{{ .Site.Title }}</span>
         </a>
         <nav class="sidebar-tree">
-          <ul>
-            {{ range .Site.Menus.main }}
-            {{ if not .Parent }}
-            {{ $isCurrent := or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }}
-            <li class="sidebar-menu-item{{ if .Children }} has-children{{ end }}{{ if $isCurrent }} current{{ end }}">
-              <a href="{{ .URL }}">{{ .Name }}</a>
-              {{ with .Children }}
-              <ul class="sidebar-submenu">
-                {{ range . }}
-                {{ $childCurrent := or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }}
-                <li class="sidebar-submenu-item{{ if $childCurrent }} current{{ end }}">
-                  <a href="{{ .URL }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-              </ul>
-              {{ end }}
-            </li>
-            {{ end }}
-            {{ end }}
-          </ul>
+          {{ $topLevel := where .Site.Menus.main "Parent" "" }}
+          {{ partial "sidebar-menu.html" (dict "page" $page "items" $topLevel "depth" 0) }}
         </nav>
         <div class="sidebar-curriculum-link">
           <a href="https://curriculum.jointheleague.org">← All Curricula</a>

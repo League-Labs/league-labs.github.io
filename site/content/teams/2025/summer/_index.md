@@ -2,6 +2,11 @@
 title: Summer 2025
 weight: 20
 cohort: 2025
+menu:
+  main:
+    identifier: summer-2025
+    parent: teams
+    weight: 20
 ---
 
 For Summer 2025, the teams were:

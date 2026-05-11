@@ -1,5 +1,10 @@
 ---
 title: Robots
+menu:
+  main:
+    identifier: robots-2026
+    parent: summer-2026
+    weight: 20
 ---
 
 The Summer 2026 Robots team focuses on building, testing, and demonstrating physical robot systems.

@@ -5,6 +5,12 @@
 .sidebar-submenu {
   margin: 0.15rem 0 0.4rem;
   padding-left: 1.2rem;
+  display: none;
+}
+
+.sidebar-menu-item.current > .sidebar-submenu,
+.sidebar-submenu-item.current > .sidebar-submenu {
+  display: block;
 }
 
 .sidebar-submenu-item a {

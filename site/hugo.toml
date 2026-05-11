@@ -2,7 +2,7 @@ baseURL = "https://labs.jointheleague.org/"
 title = "League Labs"
 theme = "curriculum-hugo-theme"
 enableEmoji = true
-disableKinds = ["taxonomy", "term"]
+sectionPagesMenu = "main"
 
 # Mount course.yml as Hugo data so templates can read it
 # directly via .Site.Data.course — no need to duplicate fields.
@@ -31,36 +31,3 @@ disableKinds = ["taxonomy", "term"]
   curik_version = "0.20260504.1"
   instructorGuide = true
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 10
-
-  [[menu.main]]
-    name = "Calendar"
-    url = "/calendar/"
-    weight = 20
-
-  [[menu.main]]
-    name = "Teams"
-    url = "/teams/"
-    weight = 30
-    identifier = "teams"
-
-  [[menu.main]]
-    name = "Summer 2026"
-    url = "/teams/summer26/"
-    parent = "teams"
-    weight = 31
-
-  [[menu.main]]
-    name = "Summer 2025"
-    url = "/teams/summer25/"
-    parent = "teams"
-    weight = 32
-
-  [[menu.main]]
-    name = "News"
-    url = "/news/"
-    weight = 40

@@ -13,10 +13,10 @@ Do not write curriculum content, modify course structure, scaffold files, or mak
 
 ## Hugo Theme
 
-The Hugo theme lives at `themes/curriculum-hugo-theme/` in this repo. Curik
+The Hugo theme lives at `site/themes/curriculum-hugo-theme/` in this repo. Curik
 copies it there during scaffolding. Do not modify it — changes go upstream
 in the curik package. Hugo finds it automatically via `theme = "curriculum-hugo-theme"`
-in `hugo.toml`.
+in `site/hugo.toml`.
 
 ## Rules
 

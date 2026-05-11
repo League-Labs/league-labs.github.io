@@ -1,0 +1,23 @@
+{{/*
+  Recursive sidebar menu partial.
+  Receives a dict: { page, items, depth }
+  - page: the current page (for current-state lookups)
+  - items: a slice of menu entries to render
+  - depth: integer, 0 for top-level
+*/}}
+{{ $page := .page }}
+{{ $items := .items }}
+{{ $depth := .depth | default 0 }}
+{{ $listClass := cond (eq $depth 0) "sidebar-top" "sidebar-submenu" }}
+{{ $itemClass := cond (eq $depth 0) "sidebar-menu-item" "sidebar-submenu-item" }}
+<ul class="{{ $listClass }}">
+  {{ range $items }}
+  {{ $isCurrent := or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }}
+  <li class="{{ $itemClass }}{{ if .Children }} has-children{{ end }}{{ if $isCurrent }} current{{ end }}">
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ with .Children }}
+      {{ partial "sidebar-menu.html" (dict "page" $page "items" . "depth" (add $depth 1)) }}
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>

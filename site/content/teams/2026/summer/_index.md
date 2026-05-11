@@ -2,6 +2,11 @@
 title: Summer 2026
 weight: 10
 cohort: 2026
+menu:
+  main:
+    identifier: summer-2026
+    parent: teams
+    weight: 10
 ---
 
 For Summer 2026, the teams are:
