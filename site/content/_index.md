@@ -29,3 +29,4 @@ Discord server and do not.
 ### Past Projects
 
 - [Summer 2025](teams/2025/summer/)
+- [HTH Coding with Cards](https://labs.jointheleague.org/coding-with-cards/)

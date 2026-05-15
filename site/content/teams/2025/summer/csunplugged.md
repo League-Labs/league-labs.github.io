@@ -6,6 +6,8 @@ title: CS Unplugged Team S25
 The CS Unplugged Team will work on the _Coding With Cards_ class, which 
 uses physical cards to teach algorithms and data structures. 
 
+[Coding with Cards](https://labs.jointheleague.org/coding-with-cards/) website.
+
 This class will teach students: 
 
 * Sorting algorithms: bubble sort, selection sort, insertion sort,
