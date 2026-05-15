@@ -20,5 +20,6 @@ The ideas:
 * [Science at Home](science-at-home) — booking short science events for birthday parties and similar.
 * [The Quartermaster](quartermaster) — inventory and lending system for tabletop minis, terrain, and books.
 * [Link Up](link-up) — group scheduler for squads that merges calendars with AI-captured preferences.
+* [STEM Ecosystem](stem-ecosystem) — scraper-fed regional calendar of kid-friendly STEM events.
 
 For each idea, the write-up sketches the problem, who the users are, the main pieces of the application, and a few possible stretch features. None of these are specifications — they're starting points to argue with.

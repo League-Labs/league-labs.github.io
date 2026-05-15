@@ -42,5 +42,8 @@ of your own. Each has a longer write-up linked below.
   and friend groups. Merges everyone's calendars with AI-captured preferences
   ("I hate mornings, never weekends, practice Tues/Thurs nights") and proposes
   the times most people can actually pull up.
-
-See the [project ideas section](../web-projects-ideas/) for the full write-ups.
+* [**STEM Ecosystem**](../web-projects-ideas/stem-ecosystem/) — a revamp of
+  sdstemecosystem.org built around a scraper that pulls kid-friendly STEM
+  events from museums, aquariums, parks, and nonprofits — beach cleanups,
+  tide-pool walks, astronomy nights, bug-collecting field days — into one
+  searchable regional calendar.
