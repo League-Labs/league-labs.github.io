@@ -47,3 +47,10 @@ of your own. Each has a longer write-up linked below.
   events from museums, aquariums, parks, and nonprofits — beach cleanups,
   tide-pool walks, astronomy nights, bug-collecting field days — into one
   searchable regional calendar.
+* [**Parent Showcase**](../web-projects-ideas/parent-showcase/) — a private
+  parent portal where instructors post class photos, videos, code snapshots,
+  and short updates, with an after-class email recap to families.
+* [**Micro:bit Project Coach**](../web-projects-ideas/microbit-project-coach/)
+  — students chat with AI about a Micro:bit or robotics idea, then get a
+  personalized lesson path with starter tasks, mini-projects, and milestone
+  steps toward the final build.

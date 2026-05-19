@@ -21,5 +21,7 @@ The ideas:
 * [The Quartermaster](quartermaster) — inventory and lending system for tabletop minis, terrain, and books.
 * [Link Up](link-up) — group scheduler for squads that merges calendars with AI-captured preferences.
 * [STEM Ecosystem](stem-ecosystem) — scraper-fed regional calendar of kid-friendly STEM events.
+* [Parent Showcase](parent-showcase) — private family portal for class media updates and post-class recap emails.
+* [Micro:bit Project Coach](microbit-project-coach) — AI-guided project planning that turns student ideas into stepwise Micro:bit lesson plans.
 
 For each idea, the write-up sketches the problem, who the users are, the main pieces of the application, and a few possible stretch features. None of these are specifications — they're starting points to argue with.
