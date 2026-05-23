@@ -1,6 +1,6 @@
 baseURL = "https://labs.jointheleague.org/"
 title = "League Labs"
-theme = "curriculum-hugo-theme"
+theme = "hugo-theme-voidmain"
 enableEmoji = true
 sectionPagesMenu = "main"
 

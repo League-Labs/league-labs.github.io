@@ -13,6 +13,12 @@ The Summer 2026 Robots team focuses on building, testing, and demonstrating phys
 
 This track focuses on estimating where a robot is on the field over time. Students will compare dead-wheel odometers and optical-flow odometers, then test how each method behaves during acceleration, turning, and wheel slip. The goal is to improve real-time location accuracy so path-following and autonomous routines become more reliable.
 
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/images/robots-2026-track1-topdown.png" alt="Top-down robotics field view with AprilTag detections on two robots" style="width: 100%; max-width: 600px; height: auto;" />
+</div>
+
+Project deep dive: [Path planning robot chase demo](track1-path-planning-chase)
+
 Learn more:
 
 * Odometry (Wikipedia): https://en.wikipedia.org/wiki/Odometry

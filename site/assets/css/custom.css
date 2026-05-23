@@ -2,9 +2,11 @@
   font-weight: 700;
 }
 
-.sidebar-submenu {
+.sidebar-tree .sidebar-submenu {
   margin: 0.15rem 0 0.4rem;
-  padding-left: 1.2rem;
+  padding-left: 1rem;
+  margin-left: 0.6rem;
+  border-left: 2px solid var(--color-border);
   display: none;
 }
 
@@ -13,7 +15,7 @@
   display: block;
 }
 
-.sidebar-submenu-item a {
+.sidebar-tree .sidebar-submenu-item > a {
   display: flex;
   align-items: center;
   justify-content: space-between;
