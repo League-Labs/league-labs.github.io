@@ -7,13 +7,17 @@ month-grid calendars (June/July/August) on the main /calendar/ page. Each
 day cell shows its meetings with start time and name; entries link to their
 enrollment / event page where one is available.
 
-Feeds (see SOURCES below):
-  - PIKE_CALENDAR   Pike13 — only the known meetings are shown, each with its
-                    own label/color: Robot Garage, Robots (Online),
-                    Web Applications. Entries link to Pike13 enrollment.
-  - LL_CALENDAR     League Labs Google Calendar — every event shown, labeled
-                    by its own title.
-  - MEETUP_CALENDAR Meetup (Code Clinics) — every event shown by title.
+Feeds:
+  - Pike13          Pulled directly from the leaguesync API (SYNC_URL /
+                    SYNC_API_TOKEN), NOT the public .ics — the .ics export
+                    lags on cancellations, while the API's event_occurrences
+                    table has the authoritative `state` (active/canceled). Only
+                    the known meetings are shown, each with its own label/color:
+                    Robot Garage, Robots (Online), Web Applications. Canceled
+                    occurrences are dropped. Entries link to Pike13 enrollment.
+  - LL_CALENDAR     League Labs Google Calendar (.ics) — every event shown,
+                    labeled by its own title; clicking opens a details popup.
+  - MEETUP_CALENDAR Meetup (Code Clinics, .ics) — every event shown by title.
 
 The Robots and Web Applications team pages just link to /calendar/.
 
@@ -24,6 +28,7 @@ rewritten in place on each run.
 
 import base64
 import calendar as calmod
+import json
 import re
 import shutil
 import sys
@@ -47,22 +52,24 @@ UTC = ZoneInfo("UTC")
 CALENDAR_MONTHS = [(2026, 6), (2026, 7), (2026, 8)]
 WEEKDAY_HEADERS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
-# Pike13: only these SUMMARY values are shown, each with its own label + color.
+# Pike13 event_occurrences.name -> (calendar label, color class). Only these
+# event types are pulled from the leaguesync API; anything else is ignored.
 PIKE_GROUPS = {
     "Robot Garage": ("Robot Garage", "rg"),
     "League Labs Robots": ("Robots (Online)", "ro"),
     "League Labs Web Applications": ("Web Applications", "wa"),
 }
 
-# Calendar feeds pulled from .env.
+# Pike13 enrollment URL for an occurrence id.
+PIKE_EVENT_URL = "https://jtl.pike13.com/e/{id}"
+
+# .ics calendar feeds pulled from .env (Pike13 comes from the API instead).
 #   env:    .env key holding the feed URL.
-#   mode:   "pike"  -> keep only PIKE_GROUPS, label/color per group.
-#           "named" -> show every event, labeled by its own title; one color
+#   mode:   "named" -> show every event, labeled by its own title; one color
 #                      and one legend entry (css/legend) for the whole feed.
 #   popup:  True  -> clicking an entry opens a details dialog (time, location,
 #                    description) instead of following a link.
 SOURCES = [
-    {"name": "Pike13", "env": "PIKE_CALENDAR", "mode": "pike"},
     {
         "name": "League Labs",
         "env": "LL_CALENDAR",
@@ -93,7 +100,10 @@ def read_env():
         if not line or line.startswith("#") or "=" not in line:
             continue
         key, value = line.split("=", 1)
-        env[key.strip()] = value.strip()
+        value = value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        env[key.strip()] = value
     return env
 
 
@@ -183,20 +193,16 @@ def parse_entries(text, source):
             m = re.search(r"^" + key + r"[^:\n]*:(.*)$", block, re.M)
             return ical_unescape(m.group(1).strip()) if m else ""
 
+        if field("STATUS") == "CANCELLED":
+            continue
         summary = field("SUMMARY")
         start, all_day = parse_when(block, "DTSTART")
         if not start:
             continue
         end, _ = parse_when(block, "DTEND")
-        if source["mode"] == "pike":
-            if summary not in PIKE_GROUPS:
-                continue
-            label, css = PIKE_GROUPS[summary]
-            legend = label
-        else:
-            label = summary or source["name"]
-            css = source["css"]
-            legend = source["legend"]
+        label = summary or source["name"]
+        css = source["css"]
+        legend = source["legend"]
         entries.append(
             {
                 "start": start,
@@ -211,6 +217,70 @@ def parse_entries(text, source):
                 "body": field("DESCRIPTION"),
             }
         )
+    return entries
+
+
+def iso_to_pacific(value):
+    """Parse an ISO-8601 timestamp (UTC) to a naive America/Los_Angeles time."""
+    dt = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=UTC)
+    return dt.astimezone(PACIFIC).replace(tzinfo=None)
+
+
+def calendar_range():
+    """(lo, hi) UTC date strings spanning the rendered months, hi exclusive."""
+    fy, fm = CALENDAR_MONTHS[0]
+    ly, lm = CALENDAR_MONTHS[-1]
+    ny, nm = (ly + 1, 1) if lm == 12 else (ly, lm + 1)
+    return f"{fy:04d}-{fm:02d}-01", f"{ny:04d}-{nm:02d}-01"
+
+
+def fetch_pike_via_api(env):
+    """Pull active Pike13 occurrences from the leaguesync API. The public .ics
+    export lags on cancellations, so we read event_occurrences.state directly
+    and drop anything not 'active'."""
+    base = env.get("SYNC_URL")
+    token = env.get("SYNC_API_TOKEN")
+    if not base or not token:
+        print("  - Pike13 (API): SYNC_URL/SYNC_API_TOKEN not set, skipping")
+        return []
+    names = ", ".join("'" + n.replace("'", "''") + "'" for n in PIKE_GROUPS)
+    lo, hi = calendar_range()
+    sql = (
+        "SELECT id, name, start_at, end_at FROM event_occurrences "
+        f"WHERE name IN ({names}) AND state = 'active' "
+        f"AND start_at >= '{lo}' AND start_at < '{hi}' ORDER BY start_at"
+    )
+    url = base.rstrip("/") + "/query?" + urllib.parse.urlencode({"sql": sql})
+    req = urllib.request.Request(
+        url,
+        headers={"Authorization": "Bearer " + token, "User-Agent": "league-labs-build"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            rows = json.loads(resp.read().decode("utf-8"))
+    except Exception as exc:
+        print(f"  - Pike13 (API): query failed ({exc}), skipping")
+        return []
+    entries = []
+    for r in rows:
+        label, css = PIKE_GROUPS[r["name"]]
+        entries.append(
+            {
+                "start": iso_to_pacific(r["start_at"]),
+                "end": iso_to_pacific(r["end_at"]) if r.get("end_at") else None,
+                "all_day": False,
+                "label": label,
+                "css": css,
+                "url": PIKE_EVENT_URL.format(id=r["id"]),
+                "legend": label,
+                "popup": False,
+                "location": "",
+                "body": "",
+            }
+        )
+    print(f"  - Pike13 (API): {len(entries)} active event(s)")
     return entries
 
 
@@ -411,8 +481,8 @@ def replace_block(path: Path, default_front: str, body: str):
 
 def main():
     env = read_env()
-    all_entries = []
     print("Reading calendar feeds:")
+    all_entries = fetch_pike_via_api(env)
     for src in SOURCES:
         raw = env.get(src["env"])
         if not raw:

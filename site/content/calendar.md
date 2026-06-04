@@ -57,7 +57,7 @@ title: Calendar
 <td><div class="dnum">1</div><a class="ev wa" href="https://jtl.pike13.com/e/295063557" target="_blank" rel="noopener"><span class="t">2:00 PM</span> Web Applications</a></td>
 <td><div class="dnum">2</div></td>
 <td><div class="dnum">3</div></td>
-<td><div class="dnum">4</div><a class="ev wa" href="https://jtl.pike13.com/e/296076074" target="_blank" rel="noopener"><span class="t">2:00 PM</span> Web Applications</a><button type="button" class="ev ll" data-popup="1" data-title="Web Applications Setup" data-when="Thursday, June 4, 2026 · 2:00 PM – 3:00 PM" data-loc="https://us02web.zoom.us/j/82864640995?pwd=ux2AV7qXjAzTYtnj4TWmDs0R3DK43q.1" data-body="&lt;p&gt;Get setup with Claude Code and Visual Studio Code. &lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://us02web.zoom.us/j/82864640995?pwd=ux2AV7qXjAzTYtnj4TWmDs0R3DK43q.1&quot; target=&quot;_blank&quot;&gt;https://us02web.zoom.us/j/82864640995?pwd=ux2AV7qXjAzTYtnj4TWmDs0R3DK43q.1&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;"><span class="t">2:00 PM</span> Web Applications Setup</button><a class="ev ro" href="https://jtl.pike13.com/e/295064376" target="_blank" rel="noopener"><span class="t">5:00 PM</span> Robots (Online)</a></td>
+<td><div class="dnum">4</div><button type="button" class="ev ll" data-popup="1" data-title="Web Applications Setup" data-when="Thursday, June 4, 2026 · 2:00 PM – 3:00 PM" data-loc="https://us02web.zoom.us/j/82864640995?pwd=ux2AV7qXjAzTYtnj4TWmDs0R3DK43q.1" data-body="&lt;p&gt;Get setup with Claude Code and Visual Studio Code. &lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://us02web.zoom.us/j/82864640995?pwd=ux2AV7qXjAzTYtnj4TWmDs0R3DK43q.1&quot; target=&quot;_blank&quot;&gt;https://us02web.zoom.us/j/82864640995?pwd=ux2AV7qXjAzTYtnj4TWmDs0R3DK43q.1&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;"><span class="t">2:00 PM</span> Web Applications Setup</button><a class="ev ro" href="https://jtl.pike13.com/e/295064376" target="_blank" rel="noopener"><span class="t">5:00 PM</span> Robots (Online)</a></td>
 <td><div class="dnum">5</div></td>
 <td><div class="dnum">6</div><a class="ev rg" href="https://jtl.pike13.com/e/295063587" target="_blank" rel="noopener"><span class="t">12:00 PM</span> Robot Garage</a><a class="ev rg" href="https://jtl.pike13.com/e/272187137" target="_blank" rel="noopener"><span class="t">1:00 PM</span> Robot Garage</a></td>
 </tr>
@@ -115,7 +115,7 @@ title: Calendar
 <td><div class="dnum">1</div></td>
 <td><div class="dnum">2</div><a class="ev ro" href="https://jtl.pike13.com/e/295064380" target="_blank" rel="noopener"><span class="t">5:00 PM</span> Robots (Online)</a></td>
 <td><div class="dnum">3</div></td>
-<td><div class="dnum">4</div><a class="ev rg" href="https://jtl.pike13.com/e/295063591" target="_blank" rel="noopener"><span class="t">12:00 PM</span> Robot Garage</a><a class="ev rg" href="https://jtl.pike13.com/e/272187145" target="_blank" rel="noopener"><span class="t">1:00 PM</span> Robot Garage</a></td>
+<td><div class="dnum">4</div></td>
 </tr>
 <tr>
 <td><div class="dnum">5</div><a class="ev rg" href="https://jtl.pike13.com/e/295063672" target="_blank" rel="noopener"><span class="t">12:00 PM</span> Robot Garage</a><a class="ev rg" href="https://jtl.pike13.com/e/272187146" target="_blank" rel="noopener"><span class="t">1:00 PM</span> Robot Garage</a></td>
