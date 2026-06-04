@@ -64,63 +64,7 @@ Learn more:
 By the end of the term, each track should produce reusable demos and reference notes, and the ROS track should help connect those pieces into shared robot software components.
 
 <!-- BEGIN GENERATED MEETINGS - edited by scripts/gen_meetings.py -->
-# Robots
+## Meetings
 
-**Robot Garage — 12:00 PM–1:00 PM**
-
-- [Saturday, June 6, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, June 7, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, June 13, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, June 14, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, June 20, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, June 21, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, June 27, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, June 28, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, July 4, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, July 5, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, July 11, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, July 12, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, July 18, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, July 19, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, July 25, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, July 26, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, August 1, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, August 2, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, August 8, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, August 9, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, August 15, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, August 16, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, August 22, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, August 23, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Saturday, August 29, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-- [Sunday, August 30, 2026 — 12:00 PM](/teams/2026/summer/meetings/robot-garage-1200/)
-
-**Robot Garage — 1:00 PM–2:30 PM**
-
-- [Saturday, June 6, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, June 7, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, June 13, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, June 14, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, June 20, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, June 21, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, June 27, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, June 28, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, July 4, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, July 5, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, July 11, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, July 12, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, July 18, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, July 19, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, July 25, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, July 26, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, August 1, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, August 2, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, August 8, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, August 9, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, August 15, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, August 16, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, August 22, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, August 23, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Saturday, August 29, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
-- [Sunday, August 30, 2026 — 1:00 PM](/teams/2026/summer/meetings/robot-garage-1300/)
+See the **[meeting calendar](/calendar/)** for all upcoming session dates, times, and how to enroll.
 <!-- END GENERATED MEETINGS -->

@@ -11,4 +11,4 @@ serve: meetings
 
 # Build the Hugo site
 build: meetings
-    hugo -s site
+    hugo -s site --cleanDestinationDir
