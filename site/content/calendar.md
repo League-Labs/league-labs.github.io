@@ -6,6 +6,19 @@ title: Calendar
 
 ## League Labs Calendar
 
+> **Enrolling in these meetings.** Most of the events below require enrollment
+> in the League Labs program. When you click an event, Pike13 will ask you to
+> enroll, which requires a [Pike13](https://jtl.pike13.com/) account and a
+> League Labs plan — but you won't actually pay anything. Purchase the
+> [League Labs plan](https://jtl.pike13.com/prepaid_products/309704) and apply
+> the coupon code we've given you, which applies a 100% discount and brings your
+> total to $0.
+>
+> If you've forgotten the code, we send it out in the
+> [Google group](https://groups.google.com/a/jointheleague.org/g/labs26), or
+> email Eric Busboom at
+> [eric.busboom@jointheleague.org](mailto:eric.busboom@jointheleague.org).
+
 <!-- BEGIN GENERATED MEETINGS - edited by scripts/gen_meetings.py -->
 <style>
 .meeting-cal table.cal { width: 100%; border-collapse: collapse; table-layout: fixed; margin: 0.25rem 0 2rem; }
