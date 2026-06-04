@@ -54,3 +54,22 @@ of your own. Each has a longer write-up linked below.
   — students chat with AI about a Micro:bit or robotics idea, then get a
   personalized lesson path with starter tasks, mini-projects, and milestone
   steps toward the final build.
+
+<!-- BEGIN GENERATED MEETINGS - edited by scripts/gen_meetings.py -->
+# Web Applications
+
+- [Monday, June 1, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, June 8, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, June 15, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, June 22, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, June 29, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, July 6, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, July 13, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, July 20, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, July 27, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, August 3, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, August 10, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, August 17, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, August 24, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+- [Monday, August 31, 2026 — 2:00 PM](/teams/2026/summer/meetings/web-applications-1400/)
+<!-- END GENERATED MEETINGS -->
