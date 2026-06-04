@@ -1,0 +1,3 @@
+[submodule "site/themes/hugo-theme-voidmain"]
+	path = site/themes/hugo-theme-voidmain
+	url = https://github.com/league-infrastructure/hugo-theme-voidmain.git
