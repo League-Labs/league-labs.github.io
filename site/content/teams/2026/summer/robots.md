@@ -9,6 +9,8 @@ menu:
 
 The Summer 2026 Robots team focuses on building, testing, and demonstrating physical robot systems through multiple technical tracks. Each track goes deep on a different robotics skill, and teams will collaborate so tools from one track can support the others.
 
+Get the code for these projects at the [League Robotics GitHub](https://github.com/league-robotics) and the docs from the [League Robotics Documentation](https://league-robotics.github.io/).
+
 ## Track 1: Odometry and Robot Localization
 
 This track focuses on estimating where a robot is on the field over time. Students will compare dead-wheel odometers and optical-flow odometers, then test how each method behaves during acceleration, turning, and wheel slip. The goal is to improve real-time location accuracy so path-following and autonomous routines become more reliable.
