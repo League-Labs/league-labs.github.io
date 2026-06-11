@@ -7,6 +7,8 @@ menu:
     weight: 20
 ---
 
+<!--more-->
+
 The Summer 2026 Robots team focuses on building, testing, and demonstrating physical robot systems through multiple technical tracks. Each track goes deep on a different robotics skill, and teams will collaborate so tools from one track can support the others.
 
 Get the code for these projects at the [League Robotics GitHub](https://github.com/league-robotics) and the docs from the [League Robotics Documentation](https://league-robotics.github.io/).
